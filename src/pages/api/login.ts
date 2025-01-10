@@ -14,11 +14,7 @@ export default  async (req: NextApiRequest, res: NextApiResponse)  => {
   const Password = request.password;
   // console.log('request: ', request);
 
-  console.log('Email: ', Email);
-  console.log('Password: ', Password);
-
-  console.log(Email && Password);
-  
+ 
 
   if(Email && Password) {
     const users = client.db("Power").collection("Users");
