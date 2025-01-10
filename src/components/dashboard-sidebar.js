@@ -28,15 +28,11 @@ const items = [
   //   icon: (<UsersIcon fontSize="small" />),
   //   title: 'Customers'
   // },
-  {
-    href: '/order',
-    icon: (<ChartBarIcon fontSize="small" />),
-    title: 'Orders'
-  },
+ 
   {
     href: '/products',
     icon: (<ShoppingBagIcon fontSize="small" />),
-    title: 'Products'
+    title: 'Blogs'
   },
   // {
   //   href: '/settings',
@@ -52,7 +48,7 @@ const items = [
   {
     href: '/add',
     icon: (<LibraryAddIcon fontSize="small" />),
-    title: 'Add Product'
+    title: 'Add Blog'
   },
   // {
   //   href: '/404',
@@ -111,7 +107,7 @@ export const DashboardSidebar = (props) => {
           <Box sx={{px:'1em',pb:'1em'}}>
           
             <Typography fontSize='.8em'>
-            Powerhouse-lb Dashboard
+            Blogs
             </Typography>
           </Box>
 

@@ -73,7 +73,7 @@ const Page = () => {
   <>
     <Head>
       <title>
-        Products | powerhouse | onbeirut.com
+        Blogs 
       </title>
     </Head>
    {isauthed && <Box

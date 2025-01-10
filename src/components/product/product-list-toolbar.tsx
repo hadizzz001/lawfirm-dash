@@ -31,27 +31,16 @@ export const ProductListToolbar = ({q,handleChange}:any) => {
         sx={{ m: 1 }}
         variant="h4"
       >
-        Products
+        Blogs
       </Typography>
       <Box sx={{ m: 1 }}>
-        <Button
-          startIcon={(<UploadIcon fontSize="small" />)}
-          sx={{ mr: 1 }}
-        >
-          Import
-        </Button>
-        <Button
-          startIcon={(<DownloadIcon fontSize="small" />)}
-          sx={{ mr: 1 }}
-        >
-          Export
-        </Button>
+ 
         <Button
   onClick={()=>router.push('/add')}
 color="primary"
           variant="contained"
           >
-          Add products
+          Add blog
         </Button>
       </Box>
     </Box>
